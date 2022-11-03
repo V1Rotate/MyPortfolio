@@ -15,7 +15,7 @@ const Projects = () => {
           <p className='text-xl sm:text-4xl font-bold inline border-b-4 text-[#3a4152] border-[#3764c5] '>
             Projects
           </p>
-          <p className='text-[12px] sm:py-4 sm:text-sm'>
+          <p className='pt-4 text-md'>
             Here are some of my recent projects I enjoyed developing
           </p>
         </div>

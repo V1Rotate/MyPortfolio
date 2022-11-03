@@ -19,7 +19,7 @@ const ProjectsInProgress = () => {
           <p className='text-xl sm:text-4xl font-bold inline border-b-4 text-[#3a4152] border-[#3764c5] '>
             Projects In Progress
           </p>
-          <p className='text-[12px] py-0 sm:py-4 sm:text-sm'>
+          <p className='py-0 sm:py-4 text-md'>
             Here are some projects I am currently developing:
           </p>
         </div>

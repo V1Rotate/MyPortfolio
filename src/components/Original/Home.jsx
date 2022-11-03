@@ -1,5 +1,6 @@
 import React from 'react';
 import Photo from '../../assets/olegImg.png';
+import { Link } from 'react-scroll';
 
 function Home() {
   return (
@@ -25,9 +26,11 @@ function Home() {
           </p>
 
           <div>
-            <button className='text-white bg-[#3764c5] rounded-lg hover:scale-105 duration-300 hover:bg-[#dd691e] px-1 sm:px-3 hover:px-4 py-1 text-md sm:py-2 items-center animate-pulse flex space-x-4 hover:animate-none'>
-              View Projects
-            </button>
+            <Link to='projects' smooth={true} duration={500}>
+              <button className='text-white bg-[#3764c5] rounded-lg hover:scale-105 duration-300 hover:bg-[#dd691e] px-1 sm:px-3 hover:px-4 py-1 text-md sm:py-2 items-center animate-pulse flex space-x-4 hover:animate-none'>
+                View Projects
+              </button>
+            </Link>
           </div>
         </div>
       </div>

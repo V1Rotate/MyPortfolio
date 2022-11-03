@@ -16,16 +16,16 @@ const Contact = () => {
             Contact
           </p>
 
-          <p className='#3a4152 text-[12px] py-1 sm:py-4 sm:text-sm'>
+          <p className='#3a4152 text-md py-1 sm:py-4'>
             <p>I am always open for coversation. </p>
             <p>
               Please send me a message below or at{' '}
               <span>
                 <a
-                  href='mailto:yadroshnikov@yahoo.com'
+                  href='mailto:contact@olegyadroshnikov.com'
                   className=' text-[#3764c5] hover:underline duration-300 hover:underline-offset-8 cursor-pointer  decoration-[#3764c5]'
                 >
-                  yadroshnikov@yahoo.com
+                  contact@olegyadroshnikov.com
                 </a>
               </span>
             </p>

@@ -22,9 +22,7 @@ const Skills = () => {
           <p className='text-xl sm:text-4xl font-bold inline border-b-4 border-[#3764c5] '>
             Skills
           </p>
-          <p className='text-[12px] sm:py-4 sm:text-sm'>
-            These are the technologies I work with
-          </p>
+          <p className='py-4 text-md'>These are the technologies I work with</p>
         </div>
 
         <div className='grid w-full grid-cols-3 gap-4 py-8 text-center sm:grid-cols-4'>

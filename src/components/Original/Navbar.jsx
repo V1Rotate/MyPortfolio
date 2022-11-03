@@ -13,7 +13,9 @@ function Navbar() {
   return (
     <div className='fixed z-10  w-full h-[80px] flex justify-between items-center px-4  text-[#3a4152]'>
       <div className='duration-300 cursor-pointer hover:scale-105'>
-        <img src={Logo} alt='Oleg logo' className=' w-[80px] sm:w-[140px]' />
+        <Link to='home' smooth={true} duration={500}>
+          <img src={Logo} alt='Oleg logo' className=' w-[80px] sm:w-[140px]' />
+        </Link>
       </div>
 
       <ul className='hidden lg:flex '>
@@ -150,7 +152,7 @@ function Navbar() {
           <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#29A0B1] rounded-md'>
             <a
               className='flex items-center justify-between w-full text-white'
-              href='mailto:yadroshnikov@yahoo.com'
+              href='mailto:contact@olegyadroshnikov.com'
               target='blank'
             >
               Email <FiMail size={30} />

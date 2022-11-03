@@ -20,9 +20,7 @@ const Testimonials = () => {
             Testimonials
           </p>
 
-          <p className='text-[12px] sm:py-4 sm:text-sm'>
-            This is how I am described by others
-          </p>
+          <p className='pt-4 text-md'>This is how I am described by others</p>
         </div>
 
         <div className='grid w-full grid-cols-1 gap-4 py-8 ml-16 text-center lg:grid-cols-2 xl:grid-cols-3 lg:ml-0'>
