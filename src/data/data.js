@@ -44,9 +44,9 @@ export const data = [
   },
   {
     id: 6,
-    name: 'Portfolio: React, Javascript, Tailwind CSS, Parallax',
+    name: 'Portfolio:: React, Javascript, Tailwind CSS, Parallax',
     image: Portfolio,
-    github: 'https://github.com/V1Rotate/Portfolio-v2',
+    github: 'https://github.com/V1Rotate/MyPortfolio',
     live: 'https://olegyadroshnikov.com/',
   },
 ];
